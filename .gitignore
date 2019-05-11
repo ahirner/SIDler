@@ -1,3 +1,8 @@
-.vscode
-.ipynb_checkpoints
 examples
+**/.vscode
+**/.idea
+*.ipynb
+**/.ipynb_checkpoints
+**/__pycache__
+**.DS_Store
+*.pyc
