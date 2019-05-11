@@ -3,4 +3,4 @@
 	url = https://github.com/ahirner/resid.git
 [submodule "sidparse"]
 	path = sidparse
-	url = https://github.com/ahirner/sidparse
+	url = https://github.com/ahirner/siddump.git
