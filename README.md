@@ -8,13 +8,22 @@ Obtaining a structured stream of binary instructions opens up many ways to resam
 Such work is tbd with a layer of python.
 
 ## Requirements
-- siddump/sidparse (see git submodle)
-- resid/pipedream (see git submodule)
-- sox (for cross platofrm audio out via bash)
+- gcc
+- g++
+- sox (for cross platform audio out via bash)
 
+On Mac OS, `xcode-select --install` sets you up with compilers. Also, `brew install sox` sets you up with sox.
+
+
+## Build
+```
+git clone https://github.com/ahirner/SIDler.git --recursive
+cd SIDler
+./build.sh
+```
 
 ## Usage: bash
-./sidler-play <FOO.sid> <subtune (0-4);default 0>
+`./sidler-play.sh <FOO.sid> <subtune (0-4);default 0>`
 
 
 ## Usage: python
